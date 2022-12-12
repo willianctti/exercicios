@@ -1,0 +1,2 @@
+# exercicios
+ Curso com exercicios de HTML5 e CSS3
