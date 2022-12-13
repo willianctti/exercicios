@@ -7,18 +7,25 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;            
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* ShortHand Background
+                color > image > position > repeat > [size] > attachment 
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
 
         }
         main {
             background-color: white;
             border-radius: 5px;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.437);
@@ -30,7 +37,7 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem voluptatibus provident minus. Porro saepe debitis ut, dolores unde at eligendi asperiores repellendus error qui necessitatibus quis culpa atque quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nam porro ut nisi non tenetur, illo aperiam? Vel odit, ut laudantium consectetur labore adipisci porro, eum ipsum recusandae similique sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laboriosam sed deserunt perferendis eaque in, consectetur soluta facere dignissimos veritatis deleniti, reprehenderit perspiciatis laudantium fugit ad itaque, recusandae reiciendis voluptatum!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolorem voluptatibus provident minus. Porro saepe debitis ut, dolores unde at eligendi asperiores repellendus error qui necessitatibus quis culpa atque quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nam porro ut nisi non tenetur, illo aperiam? Vel odit, ut laudantium consectetur labore adipisci porro, eum ipsum recusandae similique sit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi laboriosam sed deserunt perferendis eaque in, consectetur soluta facere dignissimos veritatis deleniti, reprehenderit perspiciatis laudantium fugit ad itaque, recusandae reiciendis voluptatum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde nesciunt earum non voluptatum vel illum maiores animi vero aperiam, doloremque iusto est similique, architecto itaque? Labore esse amet quibusdam a?Lorem ipsum dolor sit amet consectetur adipisicing elit. At vero sequi dolores nemo optio, officiis voluptates cum, est beatae, accusantium illo itaque sapiente modi! Rem quae reprehenderit alias magnam at! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque provident nemo inventore explicabo. Vero voluptatum eligendi maxime beatae quidem, aperiam cupiditate magnam quasi quo labore atque dolor deleniti suscipit ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ad distinctio facilis cupiditate magnam sequi, veritatis totam, natus non aliquam odio architecto tempore repellendus optio dolorum fugiat vel exercitationem itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum repellat ipsam eaque porro commodi, dignissimos nam odit quod saepe laboriosam, assumenda voluptates iusto maiores omnis obcaecati aliquam velit. Rerum?</p>
     </main>
 </body>
 </html>
