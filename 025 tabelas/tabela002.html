@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
     <style>
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         body {
             font-family: Arial, Helvetica, sans-serif;
-
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
         }
         table {
             width: 500px;
@@ -32,6 +40,7 @@
     <!-- 
         Anatomia para tabelas grandes
             TABLE
+                caption
                 THEAD
                 TR, TD, TH
                     TBODY
@@ -40,10 +49,11 @@
                          TD, TD, TH
     -->     
     <table>
+        <caption>Ppulação das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -159,7 +169,7 @@
         </tbody>
 
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de habitantes</th>
             <strong>
                 <td class="num">210.547.125</td>
             </strong> 
